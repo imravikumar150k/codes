@@ -1,0 +1,71 @@
+#include <iostream>
+
+using namespace std;
+void merges(int a[], int l,int r,int mid)
+{
+    //int l+r;
+    int n1=mid-l+1,n2=r-mid;
+    int t1[n1],t2[n2];
+    for(int i=0;i<n1;i++)
+    {
+        t1[i]=a[l+i];
+    }
+    for(int i=0;i<n2;i++)
+    {
+        t2[i]=a[mid+1+i];
+    }
+    int x=0,y=0,z=l;
+
+    while(x<n1&&y<n2)
+    {
+        if(t1[x]>=t2[y]){
+            a[z]=t2[y];
+            //z++;
+            y++;
+        }
+        else{
+            a[z]=t1[x];
+            //z++;
+            x++;
+        }
+        z++;
+    }
+    while(x<n1){
+         a[z]=t1[x];
+            //z++;
+            x++;
+            z++;
+    }
+        while(y<n2){
+         a[z]=t2[y];
+            //z++;
+            y++;
+            z++;
+    }
+
+}
+void mergesort(int a[],int l,int r)
+{
+    if(l<r){
+        int mid=(l+r)/2;
+        mergesort(a,l,mid);
+        mergesort(a,mid+1,r);
+        merges(a,l,r,mid);
+    }
+
+}
+
+int main()
+{
+    int n;
+    cin>>n;int a[n];
+    for(int i=0;i<n;i++)
+    {
+        cin>>a[i];
+    }
+    mergesort(a,0,n-1);
+    for(int i=0;i<n;i++)
+    {
+        cout<<a[i]<<" ";
+    }
+}
