@@ -1,0 +1,44 @@
+The problem is to count all the possible paths from top left to bottom right of a  MxN matrix with the constraints that from each cell you can either move to right or down.
+
+Input:
+The first line of input contains an integer T, denoting the number of test cases.
+The first line of each test case is M and N, M is number of rows and N is number of columns.
+
+Output:
+For each test case, print the number of paths.
+
+Constraints:
+
+1 ≤ T ≤ 30
+1 ≤ M,N ≤ 10
+
+Example:
+Input
+2
+3 3
+2 8
+Output
+6
+8
+
+#include <iostream>
+using namespace std;
+int path(int m,int n,int x,int y)
+{
+    if(m==x || n==y) return 0;
+    if(x==m-1 && y==n-1) return 1;
+    return path(m,n,x,y+1)+path(m,n,x+1,y);
+}
+int main() {
+	//code
+// 	return 0;
+int t;
+cin>>t;
+for(int i=0;i<t;i++)
+{
+    int m,n,x=0,y=0;
+    cin>>m>>n;
+    
+    cout<<path(m,n,x,y)<<endl;
+}
+}
