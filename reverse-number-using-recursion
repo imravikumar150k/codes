@@ -1,0 +1,48 @@
+Write a program to reverse digits of a number N.
+
+Input:
+
+The first line of input contains an integer T, denoting the number of test cases. Each test case contains an integer N.
+
+Output:
+
+For each test case, print the reverse digits of number N .
+
+Constraints:
+1 ≤ T ≤ 100
+1 ≤ N ≤ 1000000000
+
+Example:
+Input:
+2
+200
+122
+Output:
+2
+221
+ #include <iostream>
+using namespace std;
+int sum=0;
+int reverse(int n)
+{
+    if(n<=0) return 0;
+    else{
+    sum+=n%10;
+    sum*=10;
+    reverse(n/10);
+    }
+    return sum/10;
+}
+int main() {
+	//code
+	int t;
+	cin>>t;
+	for(int i=0;i<t;i++)
+	{
+	    int n;
+	    cin>>n;
+	    sum=0;
+	    cout<<reverse(n)<<endl;
+	}
+	return 0;
+}
