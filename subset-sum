@@ -1,0 +1,65 @@
+Given an array of integers, print sums of all subsets in it. Output should be printed in increasing order of sums.
+
+Input : arr[] = {2, 3}
+Output: 0 2 3 5
+
+Input : arr[] = {2, 4, 5}
+Output : 0 2 4 5 6 7 9 11
+Input:
+
+The first line of input contains an integer T denoting the number of test cases. Then T test cases follow. The first line of each test case is N, N is the size of array. The second line of each test case contains N space separated values of the array arr[].
+
+Output:
+
+Output for each test case should be space separated sums in increasing order.
+
+Constraints:
+
+1 ≤ T ≤ 100
+1 ≤ N ≤ 10
+0 ≤ A[i] ≤ 100
+
+Input:
+2
+2
+1 2
+3
+5 2 1
+
+Output:
+
+0 1 2 3 
+0 1 2 3 5 6 7 8 
+
+#include <iostream>
+#include<bits/stdc++.h>
+#include<algorithm>
+#include<vector>
+using namespace std;
+vector<int> v1;
+void subset(int a[],int i,int sum,int n)
+{
+    if(i==n) {
+        v1.push_back(sum);
+        return;
+    }
+    subset(a,i+1,sum+a[i],n);
+     subset(a,i+1,sum,n);
+}
+int main() {
+	//code
+// 	return 0;
+int t;
+cin>>t;
+for(int i=0;i<t;i++)
+{
+    int n,k=0,sum=0;
+    cin>>n;int a[n];
+    for(int j=0;j<n;j++) cin>>a[j];
+    subset(a,k,sum,n);
+    sort(v1.begin(),v1.begin()+v1.size());
+    for(int j=0;j<=v1.size()-1;j++) cout<<v1[j]<<" ";
+    v1.erase(v1.begin());
+    cout<<endl;
+}
+}
