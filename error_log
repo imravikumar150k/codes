@@ -1,0 +1,57 @@
+[21-Oct-2018 10:20:31 UTC] PHP Warning:  file_get_contents(): http:// wrapper is disabled in the server configuration by allow_url_fopen=0 in /home/cricketi/public_html/score.php on line 126
+[21-Oct-2018 10:20:31 UTC] PHP Warning:  file_get_contents(http://cricapi.com/api/cricket/?apikey=2JuwflZityd8vCAWVL52VsipKIZ2): failed to open stream: no suitable wrapper could be found in /home/cricketi/public_html/score.php on line 126
+[21-Oct-2018 10:20:31 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/cricketi/public_html/score.php on line 129
+[21-Oct-2018 10:23:13 UTC] PHP Warning:  file_get_contents(): http:// wrapper is disabled in the server configuration by allow_url_fopen=0 in /home/cricketi/public_html/score.php on line 126
+[21-Oct-2018 10:23:13 UTC] PHP Warning:  file_get_contents(http://cricapi.com/api/cricket/?apikey=2JuwflZityd8vCAWVL52VsipKIZ2): failed to open stream: no suitable wrapper could be found in /home/cricketi/public_html/score.php on line 126
+[21-Oct-2018 10:23:13 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/cricketi/public_html/score.php on line 129
+[21-Oct-2018 10:24:18 UTC] PHP Warning:  file_get_contents(): http:// wrapper is disabled in the server configuration by allow_url_fopen=0 in /home/cricketi/public_html/score.php on line 127
+[21-Oct-2018 10:24:19 UTC] PHP Warning:  file_get_contents(http://cricapi.com/api/cricket/?apikey=2JuwflZityd8vCAWVL52VsipKIZ2): failed to open stream: no suitable wrapper could be found in /home/cricketi/public_html/score.php on line 127
+[21-Oct-2018 10:24:19 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/cricketi/public_html/score.php on line 130
+[21-Oct-2018 10:25:03 UTC] PHP Warning:  file_get_contents(): http:// wrapper is disabled in the server configuration by allow_url_fopen=0 in /home/cricketi/public_html/score.php on line 124
+[21-Oct-2018 10:25:03 UTC] PHP Warning:  file_get_contents(http://cricapi.com/api/cricket/?apikey=2JuwflZityd8vCAWVL52VsipKIZ2): failed to open stream: no suitable wrapper could be found in /home/cricketi/public_html/score.php on line 124
+[21-Oct-2018 10:25:03 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/cricketi/public_html/score.php on line 127
+[21-Oct-2018 10:26:52 UTC] PHP Warning:  file_get_contents(): http:// wrapper is disabled in the server configuration by allow_url_fopen=0 in /home/cricketi/public_html/score.php on line 119
+[21-Oct-2018 10:26:52 UTC] PHP Warning:  file_get_contents(http://cricapi.com/api/cricket/?apikey=2JuwflZityd8vCAWVL52VsipKIZ2): failed to open stream: no suitable wrapper could be found in /home/cricketi/public_html/score.php on line 119
+[21-Oct-2018 10:26:52 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/cricketi/public_html/score.php on line 122
+[21-Oct-2018 10:27:20 UTC] PHP Warning:  file_get_contents(): http:// wrapper is disabled in the server configuration by allow_url_fopen=0 in /home/cricketi/public_html/score.php on line 119
+[21-Oct-2018 10:27:20 UTC] PHP Warning:  file_get_contents(http://cricapi.com/api/cricket/?apikey=2JuwflZityd8vCAWVL52VsipKIZ2): failed to open stream: no suitable wrapper could be found in /home/cricketi/public_html/score.php on line 119
+[21-Oct-2018 10:27:20 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/cricketi/public_html/score.php on line 122
+[21-Oct-2018 10:56:45 UTC] PHP Warning:  file_get_contents(): http:// wrapper is disabled in the server configuration by allow_url_fopen=0 in /home/cricketi/public_html/score.php on line 119
+[21-Oct-2018 10:56:45 UTC] PHP Warning:  file_get_contents(http://cricapi.com/api/cricket/?apikey=2JuwflZityd8vCAWVL52VsipKIZ2): failed to open stream: no suitable wrapper could be found in /home/cricketi/public_html/score.php on line 119
+[21-Oct-2018 10:56:45 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/cricketi/public_html/score.php on line 122
+[21-Oct-2018 10:57:19 UTC] PHP Warning:  file_get_contents(): http:// wrapper is disabled in the server configuration by allow_url_fopen=0 in /home/cricketi/public_html/score.php on line 119
+[21-Oct-2018 10:57:19 UTC] PHP Warning:  file_get_contents(http://cricapi.com/api/cricket/?apikey=2JuwflZityd8vCAWVL52VsipKIZ2): failed to open stream: no suitable wrapper could be found in /home/cricketi/public_html/score.php on line 119
+[21-Oct-2018 10:57:19 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/cricketi/public_html/score.php on line 122
+[21-Oct-2018 10:59:32 UTC] PHP Warning:  file_get_contents(): https:// wrapper is disabled in the server configuration by allow_url_fopen=0 in /home/cricketi/public_html/score.php on line 119
+[21-Oct-2018 10:59:32 UTC] PHP Warning:  file_get_contents(https://cricapi.com/api/cricketScore?apikey=2JuwflZityd8vCAWVL52VsipKIZ2&amp;unique_id=1034809): failed to open stream: no suitable wrapper could be found in /home/cricketi/public_html/score.php on line 119
+[21-Oct-2018 10:59:32 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/cricketi/public_html/score.php on line 122
+[21-Oct-2018 10:59:43 UTC] PHP Warning:  file_get_contents(): https:// wrapper is disabled in the server configuration by allow_url_fopen=0 in /home/cricketi/public_html/score.php on line 119
+[21-Oct-2018 10:59:43 UTC] PHP Warning:  file_get_contents(https://cricapi.com/api/cricketScore?apikey=2JuwflZityd8vCAWVL52VsipKIZ2&amp;unique_id=1034809): failed to open stream: no suitable wrapper could be found in /home/cricketi/public_html/score.php on line 119
+[21-Oct-2018 10:59:43 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/cricketi/public_html/score.php on line 122
+[21-Oct-2018 11:14:07 UTC] PHP Warning:  file_get_contents(): http:// wrapper is disabled in the server configuration by allow_url_fopen=0 in /home/cricketi/public_html/cric.php on line 32
+[21-Oct-2018 11:14:07 UTC] PHP Warning:  file_get_contents(http://cricapi.com/api/cricket/?apikey=2JuwflZityd8vCAWVL52VsipKIZ2): failed to open stream: no suitable wrapper could be found in /home/cricketi/public_html/cric.php on line 32
+[21-Oct-2018 11:14:07 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/cricketi/public_html/cric.php on line 35
+[21-Oct-2018 11:14:13 UTC] PHP Warning:  file_get_contents(): http:// wrapper is disabled in the server configuration by allow_url_fopen=0 in /home/cricketi/public_html/cric.php on line 32
+[21-Oct-2018 11:14:13 UTC] PHP Warning:  file_get_contents(http://cricapi.com/api/cricket/?apikey=2JuwflZityd8vCAWVL52VsipKIZ2): failed to open stream: no suitable wrapper could be found in /home/cricketi/public_html/cric.php on line 32
+[21-Oct-2018 11:14:13 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/cricketi/public_html/cric.php on line 35
+[21-Oct-2018 11:14:59 UTC] PHP Warning:  file_get_contents(): https:// wrapper is disabled in the server configuration by allow_url_fopen=0 in /home/cricketi/public_html/cric.php on line 32
+[21-Oct-2018 11:14:59 UTC] PHP Warning:  file_get_contents(https://cricapi.com/api/cricketScore?apikey=2JuwflZityd8vCAWVL52VsipKIZ2&amp;unique_id=1034809): failed to open stream: no suitable wrapper could be found in /home/cricketi/public_html/cric.php on line 32
+[21-Oct-2018 11:14:59 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/cricketi/public_html/cric.php on line 35
+[21-Oct-2018 11:16:02 UTC] PHP Warning:  file_get_contents(): https:// wrapper is disabled in the server configuration by allow_url_fopen=0 in /home/cricketi/public_html/cric.php on line 32
+[21-Oct-2018 11:16:02 UTC] PHP Warning:  file_get_contents(https://cricapi.com/api/cricketScore?apikey=2JuwflZityd8vCAWVL52VsipKIZ2&amp;unique_id=1034809): failed to open stream: no suitable wrapper could be found in /home/cricketi/public_html/cric.php on line 32
+[21-Oct-2018 11:16:02 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/cricketi/public_html/cric.php on line 35
+[21-Oct-2018 11:16:07 UTC] PHP Warning:  file_get_contents(): https:// wrapper is disabled in the server configuration by allow_url_fopen=0 in /home/cricketi/public_html/cric.php on line 32
+[21-Oct-2018 11:16:07 UTC] PHP Warning:  file_get_contents(https://cricapi.com/api/cricketScore?apikey=2JuwflZityd8vCAWVL52VsipKIZ2&amp;unique_id=1034809): failed to open stream: no suitable wrapper could be found in /home/cricketi/public_html/cric.php on line 32
+[21-Oct-2018 11:16:07 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/cricketi/public_html/cric.php on line 35
+[21-Oct-2018 11:16:45 UTC] PHP Warning:  require(): https:// wrapper is disabled in the server configuration by allow_url_fopen=0 in /home/cricketi/public_html/score.php on line 114
+[21-Oct-2018 11:16:45 UTC] PHP Warning:  require(https://lpucoders.in/projects/cricket.php): failed to open stream: no suitable wrapper could be found in /home/cricketi/public_html/score.php on line 114
+[21-Oct-2018 11:16:45 UTC] PHP Fatal error:  require(): Failed opening required 'https://lpucoders.in/projects/cricket.php' (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/cricketi/public_html/score.php on line 114
+[21-Oct-2018 11:16:54 UTC] PHP Warning:  require(): https:// wrapper is disabled in the server configuration by allow_url_fopen=0 in /home/cricketi/public_html/score.php on line 114
+[21-Oct-2018 11:16:54 UTC] PHP Warning:  require(https://lpucoders.in/projects/cricket.php): failed to open stream: no suitable wrapper could be found in /home/cricketi/public_html/score.php on line 114
+[21-Oct-2018 11:16:54 UTC] PHP Fatal error:  require(): Failed opening required 'https://lpucoders.in/projects/cricket.php' (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/cricketi/public_html/score.php on line 114
+[21-Oct-2018 11:17:51 UTC] PHP Warning:  require(): https:// wrapper is disabled in the server configuration by allow_url_fopen=0 in /home/cricketi/public_html/score.php on line 114
+[21-Oct-2018 11:17:51 UTC] PHP Warning:  require(https://lpucoders.in/projects/cricket.php): failed to open stream: no suitable wrapper could be found in /home/cricketi/public_html/score.php on line 114
+[21-Oct-2018 11:17:51 UTC] PHP Fatal error:  require(): Failed opening required 'https://lpucoders.in/projects/cricket.php' (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/cricketi/public_html/score.php on line 114
+[21-Oct-2018 11:46:06 UTC] PHP Warning:  require(): https:// wrapper is disabled in the server configuration by allow_url_fopen=0 in /home/cricketi/public_html/score.php on line 114
+[21-Oct-2018 11:46:06 UTC] PHP Warning:  require(https://lpucoders.in/projects/cricket.php): failed to open stream: no suitable wrapper could be found in /home/cricketi/public_html/score.php on line 114
+[21-Oct-2018 11:46:06 UTC] PHP Fatal error:  require(): Failed opening required 'https://lpucoders.in/projects/cricket.php' (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/cricketi/public_html/score.php on line 114
